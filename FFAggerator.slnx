@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FFAggerator.csproj" />
+  <Project Path="FFAggerator.Tests/FFAggerator.Tests.csproj" />
+</Solution>

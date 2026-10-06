@@ -1,0 +1,24 @@
+@FFAggerator_HostAddress = http://localhost:5049
+
+GET {{FFAggerator_HostAddress}}/api/nfl/state
+Accept: application/json
+
+###
+
+GET {{FFAggerator_HostAddress}}/api/players?q=mahomes
+Accept: application/json
+
+###
+
+GET {{FFAggerator_HostAddress}}/api/players/4046
+Accept: application/json
+
+###
+
+GET {{FFAggerator_HostAddress}}/api/players/4046/projections
+Accept: application/json
+
+###
+
+GET {{FFAggerator_HostAddress}}/api/players/4046/news?limit=10
+Accept: application/json
